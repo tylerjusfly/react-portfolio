@@ -1,6 +1,6 @@
 import './profile.css'
 import ProfileImg from '../../assets/images/profile.jpg'
-import { AiFillLinkedin, AiFillGithub ,AiFillTwitterCircle,} from 'react-icons/Ai'
+import { AiFillLinkedin, AiFillGithub ,AiFillTwitterCircle,} from 'react-icons/ai'
 
 export const Profile = (props) => {
 
