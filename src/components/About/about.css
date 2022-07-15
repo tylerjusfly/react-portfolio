@@ -1,0 +1,13 @@
+
+.about--section{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 3rem;
+    margin-top: 4rem;
+}
+
+.bold--text{
+    font-weight: 700;
+}

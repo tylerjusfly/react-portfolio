@@ -1,14 +1,21 @@
 *{
-    background-color: #666;
-    color: #fff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
-    padding: 5px 10px;
+    padding: 0;
+}
+
+body{
+  margin: 40px 60px;
+  background-color: #666;
+  color: #fff;
 }
 
 .header {
     display: flex;
-    gap: 10px;
+    gap: 5rem;
     border-top: 10px;
+  }
+  .profile-content{
+    align-self: center;
   }
 
   .profile-image{
@@ -18,7 +25,7 @@
   }
 
   .fullname{
-    color: aliceblue;
+    color: wheat;
 
   }
 .desc{
@@ -31,19 +38,21 @@
 
   .social-list-inline{
     display: flex;
-    gap: 1px;
+    gap: 25px;
   }
   .social-list-inline li{
     list-style: none;
   }
    li a{
     font-size: 30px;
+    color: aliceblue;
   }
 
   @media (max-width: 715px) {
     .header {
       flex-direction: column;
       align-items: center;
+      gap: 3rem;
     }
     
   }

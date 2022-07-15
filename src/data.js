@@ -8,3 +8,11 @@ export const profile = [
     }
 
 ]
+
+export const about = {
+    "Languages" : "JavaScript,TypeScript",
+    "FrameWorks" : "NodeJs, ExpressJs, NestJs, React",
+    "Tools" : "MySQL Workbench, Git, Heroku, Netlify, RabbitMQ",
+    "DataBase" : "MySQL, PostqreSQL, MongoDB ",
+    "OperatingSystem" : "Windows, Linux"
+}
