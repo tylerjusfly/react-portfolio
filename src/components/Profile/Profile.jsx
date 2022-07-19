@@ -1,4 +1,4 @@
-import './profile.css'
+import './css/profile.css'
 import ProfileImg from '../../assets/images/profile.jpg'
 import { AiFillLinkedin, AiFillGithub ,AiFillTwitterCircle,} from 'react-icons/ai'
 

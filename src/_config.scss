@@ -1,0 +1,16 @@
+$background-color :  #666;
+$text-color : #fff;
+
+// resets
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+@mixin Large-Screen {
+    @media (min-width: 768px){
+            @content
+        }
+}
