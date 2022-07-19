@@ -1,4 +1,5 @@
 import { About } from "./components/About/About";
+import { Footer } from "./components/Footer/Footer";
 import { Profile } from "./components/Profile/Profile";
 import {profile, about} from './data'
 

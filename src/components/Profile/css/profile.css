@@ -12,8 +12,11 @@ body {
 }
 
 a {
-  color: aliceblue;
+  color: #f0f8ff;
   text-decoration: none;
+}
+a:hover {
+  color: #97b6d7;
 }
 
 .header {
@@ -56,7 +59,10 @@ a {
   font-size: 30px;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 3rem;
+  }
   .header {
     display: flex;
     flex-direction: row;

@@ -1,4 +1,4 @@
-import './about.css'
+import './css/about.css'
 
 export const About = (props) => {
   

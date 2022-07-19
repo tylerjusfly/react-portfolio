@@ -14,12 +14,16 @@ body{
   }
 //   global settings
   a{
-    color: aliceblue;
-    text-decoration: none
+    color: $alice-Blue;
+    text-decoration: none;
+    &:hover{
+        color: $hover-color;
+    }
   }
 
 .header {
    @include flex-gap(column, 2rem);
+//    height: 100%;
    justify-content: center;
    padding-top: 15px;
 
@@ -54,7 +58,10 @@ body{
             }
         }
   }
-   @include Large-Screen{
+   @include Large-Screen(768px){
+        body{
+            padding: 3rem
+        }
         .header{
             @include flex-gap(row, 5rem);
             justify-content: flex-start;

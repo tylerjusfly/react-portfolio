@@ -1,5 +1,7 @@
 $background-color :  #666;
 $text-color : #fff;
+$hover-color : #97b6d7;
+$alice-Blue : #f0f8ff;
 
 // resets
 *{
@@ -9,8 +11,8 @@ $text-color : #fff;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
 }
 
-@mixin Large-Screen {
-    @media (min-width: 768px){
+@mixin Large-Screen($screen_size) {
+    @media only screen and (min-width: $screen_size){
             @content
         }
 }
