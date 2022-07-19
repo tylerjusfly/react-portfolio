@@ -1,5 +1,9 @@
 @import '../../../config';
 
+section{
+    margin: 20px;
+}
+
 .about--section{
     background-color: $alice-Blue;
     color: darken($text-color, 100%);
