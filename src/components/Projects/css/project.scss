@@ -1,0 +1,55 @@
+@import '../../../config';
+
+.projects--section{
+    background-color: $alice-Blue;
+    color: darken($text-color, 100%);
+    border-radius: 5px;
+    padding: 2rem;
+    .content{
+        hr{
+            border: 0.5px solid #778899;
+            margin: 15px;
+        }
+        .item--featured{
+            .summary{
+                padding-top: 1.5rem;
+                padding-bottom: 1.5rem;
+                color: #666;
+                font-weight: 700;
+            }
+            .featured--image{
+               
+                img{ 
+                    height: fit-content;
+                    max-width: 505px; 
+                    padding-bottom: 1.2rem;
+                }
+            }
+        }
+        .description{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            .desc{
+                // letter-spacing: 0.2rem;
+                line-height: 1.5rem;
+            }
+            button {
+                border-radius: 5px;
+                max-width: 25rem;
+                align-self: center;
+                padding: 14px;
+                margin-top: 2rem;
+                border: none;
+                background-color: green;
+                .btn-secondary{
+                    color: $alice-Blue;
+                    font-weight: 600;
+                }
+            }
+        }
+
+    }
+
+}

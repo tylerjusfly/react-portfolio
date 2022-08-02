@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.projects--section {
+  background-color: #f0f8ff;
+  color: black;
+  border-radius: 5px;
+  padding: 2rem;
+}
+.projects--section .content hr {
+  border: 0.5px solid #778899;
+  margin: 15px;
+}
+.projects--section .content .item--featured .summary {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: #666;
+  font-weight: 700;
+}
+.projects--section .content .item--featured .featured--image img {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 505px;
+  padding-bottom: 1.2rem;
+}
+.projects--section .content .description {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.projects--section .content .description .desc {
+  line-height: 1.5rem;
+}
+.projects--section .content .description button {
+  border-radius: 5px;
+  max-width: 25rem;
+  align-self: center;
+  padding: 14px;
+  margin-top: 2rem;
+  border: none;
+  background-color: green;
+}
+.projects--section .content .description button .btn-secondary {
+  color: #f0f8ff;
+  font-weight: 600;
+}
