@@ -18,10 +18,11 @@
                 font-weight: 700;
             }
             .featured--image{
-               
+                width: 400px;
+                height: 400px;
                 img{ 
-                    height: fit-content;
-                    max-width: 505px; 
+                    height: 100%;
+                    width: 100%; 
                     padding-bottom: 1.2rem;
                 }
             }
