@@ -36,7 +36,7 @@
                 // letter-spacing: 0.2rem;
                 line-height: 1.5rem;
             }
-            button {
+            .btn--div {
                 border-radius: 5px;
                 max-width: 25rem;
                 align-self: center;
@@ -48,6 +48,9 @@
                     color: $alice-Blue;
                     font-weight: 600;
                 }
+            }
+            .btn--div :nth-child(1){
+                padding-right: 3px;
             }
         }
 

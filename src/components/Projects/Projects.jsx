@@ -1,7 +1,7 @@
 import React from 'react'
 import './css/project.css'
 import {projects} from '../../data'
-import ProjectCard from '../projectCard'
+import ProjectCard from './projectCard'
 
 export const Projects = () => {
   const projectcard = projects.map(project => {

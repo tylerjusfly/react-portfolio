@@ -1,4 +1,6 @@
 import React from 'react'
+import {FaRegThumbsUp } from "react-icons/fa";
+
 
 export default function ProjectCard(props) {
 
@@ -16,9 +18,10 @@ export default function ProjectCard(props) {
                 <p><b>Technology Stack : </b> {props.stack} </p>
                 <p> <b>Team Size : </b> {props.teamSize}</p>
                  <p className='desc'> {props.desc} </p>
-            <button>
+            <div className='btn--div'>
+            <FaRegThumbsUp/>
             <a className="btn-secondary" href={props.live} target="_blank"> Check Out The project</a> 
-            </button>
+            </div>
             </div>
             <hr />
         </div>

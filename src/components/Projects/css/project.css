@@ -37,7 +37,7 @@
 .projects--section .content .description .desc {
   line-height: 1.5rem;
 }
-.projects--section .content .description button {
+.projects--section .content .description .btn--div {
   border-radius: 5px;
   max-width: 25rem;
   align-self: center;
@@ -46,7 +46,10 @@
   border: none;
   background-color: green;
 }
-.projects--section .content .description button .btn-secondary {
+.projects--section .content .description .btn--div .btn-secondary {
   color: #f0f8ff;
   font-weight: 600;
+}
+.projects--section .content .description .btn--div :nth-child(1) {
+  padding-right: 3px;
 }
