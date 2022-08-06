@@ -4,7 +4,7 @@
     background-color: $alice-Blue;
     color: darken($text-color, 100%);
     border-radius: 5px;
-    padding: 2rem;
+    padding: $padding-text;
     h2{
         color: #545e69;
     }

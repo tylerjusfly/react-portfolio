@@ -10,7 +10,7 @@ section{
     color: darken($text-color, 100%);
     border-radius: 5px;
     height: fit-content;
-    padding: 2rem;
+    padding: $padding-text;
     margin-top: 4rem;
     .heading{
         padding-bottom: 25px;
