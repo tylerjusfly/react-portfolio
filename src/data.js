@@ -55,3 +55,36 @@ export const projects = [
          Collaborated with front-end developers and creating API for them to use and more. `
     }
 ]
+
+import {nanoid} from 'nanoid'
+
+export const experience = [
+    {
+        id : nanoid(4),
+        title : "Backend Engineer",
+        company : "TIIDELab",
+        start : "Jul - 2020",
+        end : "Dec - 2020",
+        Technology : "Html, Css, JavaScript, NodeJs, ExpressJs, MySQL, Sequelize.",
+        details : " Ensured proper technical design and documentation of the backend processes. Implemented authentication and authorization for users . served as the team lead overseeing the project, Reviewing codes and merging pull requests. "
+    },
+    {
+        id : nanoid(4),
+        title : "Backend Engineer",
+        company : "EtiJar (Remote)",
+        start : "Jan - 2022",
+        end : "March - 2022",
+        Technology : "Typescript, NestJs, MongoDB, Redis, DigitalOcean.",
+        details : "eTijar is an Islamic fintech startup helping young Muslims deal with debt, savings and investment in an ethical way. ",
+        extra : "Managed all users financial accounts for statements, transactions, and identity with mono. Creating Business logics "
+    },
+    {
+        id : nanoid(4),
+        title : "Software Engineer",
+        company : "Freelancing",
+        start : "March- 2022",
+        end : "Present",
+        Technology : "Nodejs, RabbitMQ, PostgreSQL, MongoDB, SQL, ReactJs",
+        details : "Building Projects for clients with NodeJs , Express, NestJs, Reactjs and working with other Front end developers."
+    }
+]

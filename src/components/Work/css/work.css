@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.work--experience {
+  background-color: #f0f8ff;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 5px;
+  padding: 2rem;
+}
+.work--experience h2 {
+  padding-bottom: 15px;
+  color: #545e69;
+}
+.work--experience .parent--div {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-bottom: 15px;
+}
+.work--experience .job--title h3 {
+  color: #778492;
+  font-weight: 700;
+}
+.work--experience .job--title h3 span {
+  color: #999;
+  font-weight: 400;
+}

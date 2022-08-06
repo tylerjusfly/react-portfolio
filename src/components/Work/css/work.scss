@@ -1,0 +1,33 @@
+@import '../../../config';
+
+.work--experience{
+    background-color: $alice-Blue;
+    color: darken($text-color, 100);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 5px;
+    padding: 2rem;
+
+    h2{
+        padding-bottom: 15px;
+        color: #545e69;
+
+    }
+    .parent--div{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        padding-bottom: 15px;
+    }
+    .job--title{
+        h3{
+            color: #778492;
+            font-weight: 700;
+            span{
+                color: #999;
+                font-weight: 400;
+            }
+        }
+    }
+}
