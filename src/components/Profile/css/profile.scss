@@ -1,5 +1,9 @@
 @import '../../../config'; 
 
+h2, h3 {
+    font-size: 18px;
+}
+
 @mixin flex-gap($direction, $gap){
     display: flex;
     flex-direction: $direction;

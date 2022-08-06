@@ -26,8 +26,10 @@
 .work--experience .job--title h3 {
   color: #778492;
   font-weight: 700;
+  font-size: 18px;
 }
 .work--experience .job--title h3 span {
   color: #999;
   font-weight: 400;
+  font-size: 15px;
 }

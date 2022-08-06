@@ -10,6 +10,9 @@
   border-radius: 5px;
   padding: 2rem;
 }
+.projects--section h2 {
+  color: #545e69;
+}
 .projects--section .content hr {
   border: 0.5px solid #778899;
   margin: 15px;
@@ -33,6 +36,12 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+.projects--section .content .description p {
+  font-size: 14px;
+}
+.projects--section .content .description p b {
+  font-size: 15px;
 }
 .projects--section .content .description .desc {
   line-height: 1.5rem;

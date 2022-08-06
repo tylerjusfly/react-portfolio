@@ -5,6 +5,9 @@
     color: darken($text-color, 100%);
     border-radius: 5px;
     padding: 2rem;
+    h2{
+        color: #545e69;
+    }
     .content{
         hr{
             border: 0.5px solid #778899;
@@ -31,6 +34,12 @@
             display: flex;
             flex-direction: column;
             gap: 15px;
+            p{
+                b{
+                    font-size: 15px;
+                }
+                font-size: 14px;
+            }
 
             .desc{
                 // letter-spacing: 0.2rem;
